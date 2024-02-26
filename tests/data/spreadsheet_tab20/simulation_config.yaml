@@ -1,0 +1,23 @@
+components_to_use: [rdii]
+timestep: 1.
+timestep_units: 'HOURS'
+
+components:
+  rdii:
+    component_type: 'rdii'
+    parameterization:
+      ### Example mirroring Tab20 (rdii) in spreadsheet
+      catchment_area: 4000.
+      catchment_area_units: 'ACRES'
+      hydrograph_half_life_time: 22.76
+      time_parameter_units: 'HOURS'
+      dry_weather_capture_fraction: 0.01
+      is_baseflow_component: False
+      antecedent_moisture_half_life_time: 48.  
+      precip_averaging_time: 1
+      temperature_averaging_time: 240
+      cold_temperature: 30
+      temperature_parameter_units: 'FAHRENHEIT'
+      addl_capture_fraction_cold: 0.05
+      hot_temperature: 70
+      addl_capture_fraction_hot: 0.01

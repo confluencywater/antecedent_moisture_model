@@ -1,0 +1,19 @@
+name: antecedent_moisture_model-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-build
+  - python=3.8
+  - black
+  - flake8
+  - matplotlib
+  - numpy
+  - pip
+  - pydantic
+  - pytest
+  - pyyaml
+  - pylint
+  - pandas
+  - tzlocal
+

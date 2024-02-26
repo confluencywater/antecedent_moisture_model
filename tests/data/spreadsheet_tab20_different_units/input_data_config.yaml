@@ -1,0 +1,16 @@
+input_data_file: 'spreadsheet_tab20_timeseries.csv'
+skip_rows: 1
+timestamp_colname: 'timestamp'
+precip_colname: 'precip_cm'
+precip_units: 'CENTIMETERS'
+temperature_colname: 'temperature_C'
+temperature_units: 'CELSIUS'
+has_flow_data: True
+has_intermediate_data: True
+moving_avg_precip_colname: 'moving_avg_precip_cm'
+moving_avg_temperature_colname: 'moving_avg_temperature_C'
+seasonal_hydro_condition_factor_colname: 'seasonal_hydro_condition_factor'
+addl_capture_fraction_colname: 'addl_capture_fraction'
+total_capture_fraction_colname: 'total_capture_fraction'
+flow_colname: 'flow_cms'
+flow_units: 'CUBICMETERSPERSECOND'

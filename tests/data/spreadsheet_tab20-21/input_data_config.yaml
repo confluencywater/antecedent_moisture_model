@@ -1,0 +1,10 @@
+input_data_file: 'spreadsheet_tab20-21_timeseries.csv'
+skip_rows: 1
+timestamp_colname: 'timestamp'
+precip_colname: 'precip_in'
+precip_units: 'INCHES'
+temperature_colname: 'temperature_F'
+temperature_units: 'FAHRENHEIT'
+has_flow_data: True
+flow_colname: 'flow_total_cfs'
+flow_units: 'CUBICFEETPERSECOND'

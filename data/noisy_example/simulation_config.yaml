@@ -1,0 +1,48 @@
+components_to_use: [dwf, baseflow, rdii]
+timestep: 0.0833333333333
+timestep_units: 'HOURS'
+
+components:
+  dwf:
+    component_type: 'dwf'
+    parameterization:
+      base_wastewater_flow: 2.9580173035711934
+      flow_units: 'CUBICFEETPERSECOND'
+      sin_t_shift: 9.250691999786417
+      time_parameters_units: 'HOURS'
+      sin_amplitude_fraction: 0.20460438004662065
+
+      
+  baseflow:
+    component_type: 'baseflow'
+    parameterization:
+      catchment_area: 3092.378
+      cold_temperature: 30
+      hot_temperature: 70
+      hydrograph_half_life_time: 212.59847394338883
+      dry_weather_capture_fraction: 0.03108595951144465
+      precip_averaging_time: 129.96951657027
+      temperature_averaging_time: 720
+      addl_capture_fraction_cold: 0.1
+      addl_capture_fraction_hot: 0.001
+      time_parameters_units: 'HOURS'
+      catchment_area_units: 'ACRES'
+      temperature_parameters_units: 'FAHRENHEIT'
+
+
+  rdii:
+    component_type: 'rdii'
+    parameterization:
+      catchment_area: 3092.378
+      hydrograph_half_life_time: 14.245633792439198
+      dry_weather_capture_fraction: 0.033081306522420924
+      antecedent_moisture_half_life_time: 7.
+      precip_averaging_time: 0.413054152185067
+      temperature_averaging_time: 720
+      cold_temperature: 30
+      addl_capture_fraction_cold: 0.09999999000000001
+      hot_temperature: 70
+      addl_capture_fraction_hot: 0.001
+      time_parameters_units: 'HOURS'
+      catchment_area_units: 'ACRES'
+      temperature_parameters_units: 'FAHRENHEIT'

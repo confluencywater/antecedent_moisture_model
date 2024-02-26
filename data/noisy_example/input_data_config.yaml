@@ -1,0 +1,10 @@
+input_data_file: 'timeseries.csv'
+skip_rows: 0
+timestamp_colname: 'timestamp'
+precip_colname: 'precip_in'
+precip_units: 'INCHES'
+temperature_colname: 'temperature_F'
+temperature_units: 'FAHRENHEIT'
+has_flow_data: True
+flow_colname: 'flow_cfs'
+flow_units: 'CUBICFEETPERSECOND'

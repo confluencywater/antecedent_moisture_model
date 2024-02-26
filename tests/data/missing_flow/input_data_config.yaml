@@ -1,0 +1,14 @@
+input_data_file: 'missing_flow_timeseries.csv'
+skip_rows: 1
+timestamp_colname: 'timestamp'
+precip_colname: 'precip_in'
+temperature_colname: 'temperature_F'
+has_flow_data: True
+has_intermediate_data: True
+moving_avg_precip_colname: 'moving_avg_precip_in'
+moving_avg_temperature_colname: 'moving_avg_temperature_F'
+seasonal_hydro_condition_factor_colname: 'seasonal_hydro_condition_factor'
+addl_capture_fraction_colname: 'addl_capture_fraction'
+total_capture_fraction_colname: 'total_capture_fraction'
+flow_colname: 'flow_cfs'
+  
