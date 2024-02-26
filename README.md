@@ -7,7 +7,7 @@ Python implementation of an Antecedent Moisture Model (AMM). The current impleme
 Follow instructions in [installation.md](docs/installation.md)
 
 # Running antecedent_moisture_model
-See [run_multicomponent_antecedent_moisture_model.py](run_multicomponent_simulation.py) for an example of how to use the AMM. This script uses the data and configuration files in [data/noisy_example](data/noisy_example/) directory. The three important input files are:
+See [run_multicomponent_antecedent_moisture_model.py](run_multicomponent_simulation.py) for an example of how to use the module. This script uses the data and configuration files in [data/noisy_example](data/noisy_example/) directory. The three important input files are:
 
 1. timeseries.csv: One year of 5-minute data for precipitation and temperature, as well as observed flows to evaluate the modeled AMM flows. 
 2. input_data_config.yaml: Configuration file for input data. See the [InputDataConfig class](antecedent_moisture_model/timeseries/datamodel.py) to see a list of required and optional elements, expected datatypes, and default values.
@@ -25,7 +25,7 @@ For more information on Antecedent Moisture Models, refer to the following resou
 	
 # Credits
 
-Thanks to David Edgren (RJN Group), Robert Czachorski (OHM Advisors, H2Ometrics), and the rests of the AMM Users Group for generously sharing their AMM resources and knowledge, which were critical to the development of this package.
+Thanks to David Edgren (RJN Group), Robert Czachorski (OHM Advisors, H2Ometrics), and the rest of the AMM Users Group for generously sharing their AMM resources and knowledge, which were critical to the development of this package.
 
 This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) project template.
 
