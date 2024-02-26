@@ -27,7 +27,5 @@ For more information on Antecedent Moisture Models, refer to the following resou
 
 Thanks to David Edgren (RJN Group), Robert Czachorski (OHM Advisors, H2Ometrics), and the rests of the AMM Users Group for generously sharing their AMM resources and knowledge, which were critical to the development of this package.
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) project template.
 
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
