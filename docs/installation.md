@@ -8,6 +8,11 @@ Once installed run:
 .\install.bat
 ```
 
+Next, run the command
+```powershell
+conda activate antecedent_moisture_model-prod
+```
+
 This is the preferred method to install antecedent_moisture_model, as it will always install all needed libraries. Alternatively, follow the steps below.
 
 ## From source code via `conda`
