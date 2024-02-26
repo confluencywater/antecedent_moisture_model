@@ -1,4 +1,3 @@
-=========================
 antecedent_moisture_model
 =========================
 
@@ -11,8 +10,8 @@ Follow instructions in [installation.md](docs/installation.md)
 See [run_multicomponent_antecedent_moisture_model.py](run_multicomponent_simulation.py) for an example of how to use the AMM. This script uses the data and configuration files in [data/noisy_example](data/noisy_example/) directory. The three important input files are:
 
 1. timeseries.csv: One year of 5-minute data for precipitation and temperature, as well as observed flows to evaluate the modeled AMM flows. 
-2. input_data_config.yaml: Configuration file for input data. See the [timeseries data config class](antecedent_moisture_model/timeseries/datamodel.py) to see a list of required and optional elements, expected datatypes, and default values.
-3. simulation_config.yaml: Configuration file for the AMM simulator. This must include a list of components_to_use, a timestep and timestep units, and then the set of possible components. Each component must have a component_type which is "dwf" (diurnal wastewater flow), "baseflow", or "rdii" (rainfall-derived infiltration and inflow). Each component also has a parameterization. See the [dwf config class](antecedent_moisture_model/simulator/dwf.py), [baseflow config class](antecedent_moisture_model/simulator/amm_baseflow.py), and [rdii config class](antecedent_moisture_model/simulator/amm_rdii.py) for a list of required and optional parameters, expected datatypes, and default values.
+2. input_data_config.yaml: Configuration file for input data. See the [InputDataConfig class](antecedent_moisture_model/timeseries/datamodel.py) to see a list of required and optional elements, expected datatypes, and default values.
+3. simulation_config.yaml: Configuration file for the AMM simulator. This must include a list of components_to_use, a timestep and timestep units, and then the set of possible components. Each component must have a component_type which is "dwf" (diurnal wastewater flow), "baseflow", or "rdii" (rainfall-derived infiltration and inflow). Each component also has a parameterization. See the [DWFConfig class](antecedent_moisture_model/simulator/dwf.py), [AMMBaseflowConfig class](antecedent_moisture_model/simulator/amm_baseflow.py), and [AMMRDIIConfig class](antecedent_moisture_model/simulator/amm_rdii.py) for a list of required and optional parameters, expected datatypes, and default values.
 
 More examples for running AMM can be found in [tests](tests/).
 
