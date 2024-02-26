@@ -1,8 +1,3 @@
 @echo off
-if "" == "%1" (
-    call mamba env create -f %~dp0environment.yml -n xf
-) ELSE (
-    call mamba env create -f %~dp0environment.yml -n %1
-)
-
+call mamba env create -f %~dp0prod_environment.yml -n antecedent_moisture_model-prod
 pause

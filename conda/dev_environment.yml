@@ -15,5 +15,6 @@ dependencies:
   - pyyaml
   - pylint
   - pandas
+  - scipy
   - tzlocal
 
